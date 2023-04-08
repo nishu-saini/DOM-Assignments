@@ -1,29 +1,19 @@
-// Initial code
-let accordian = document.querySelectorAll(".accordian h3");
-accordian.forEach((element) => {
-  element.addEventListener("click", () => {
-    let para = element.nextElementSibling;
-    if (para.style.display === "block") {
-      para.style.display = "none";
-    } else {
-      para.style.display = "block";
-    }
-  });
-});
+# Assignment 2
 
-// ------------------------------------------------------------------------------------
-// Assignment 2
-/*
-// Task 1
+## Task 1
+```javascript
 let all_para = document.querySelectorAll(".accordian p");
 document.body.onload = () => {
   all_para[2].style.display = "block";
   all_para[3].style.display = "block";
 }
-*/
+```
 
-/*
-// Task 2
+Output
+![Task 1](../secondAssignmentImage/output1.png 'Task 1')
+
+## Task 2
+```javascript
 let accordian_wrapper = document.querySelector(".accordian-wrapper");
 let div = document.createElement("div");
 div.className = "accordian";
@@ -41,5 +31,7 @@ div.appendChild(p);
 // add div inside wrapper
 accordian_wrapper.appendChild(div);
 p.style.display = "block";
-*/
+```
 
+Output
+![Task 2](../secondAssignmentImage/output2.png 'Task 2')

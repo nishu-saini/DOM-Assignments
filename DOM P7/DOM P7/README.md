@@ -1,6 +1,7 @@
-// Assignment 7
-// Task 1
-/*
+# Assignment 7
+
+## Task 1
+```javascript
 let languages = document.querySelectorAll(".main__languages a");
 
 for (lang of languages) {
@@ -12,10 +13,13 @@ for (lang of languages) {
     if (last_three == "2.0")
         lang.remove();
 }
-*/
+```
 
-// Task 2
-/*
+Output
+![Task 1](./output1.png 'Task 1')
+
+## Task 2
+```javascript
 let input = document.querySelector(".main__form-input");
 input.disabled = false;
 input.value = "click on submit button";
@@ -27,5 +31,7 @@ submit.disabled = false;
 submit.addEventListener("click", () => {
     location.reload();
 });
-*/
+```
 
+Output
+![Task 2](./output2.png 'Task 2')
