@@ -80,7 +80,7 @@ body {
 }
 
 .add-to-cart {
-  background-color: hsl(158, 36%, 37%);
+  background-color: hwb(158 24% 50%);
   color: #fff;
   padding: 12px 0;
   border: 0;
